@@ -1,0 +1,22 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  /*padding-top: 4.5rem;*/
+}
+
+.ucsd-logo {
+  background-image: url(../images/sprite_base2x.png);
+  background-size: 500px 120px;
+  width: 167px;
+  height: 41px;
+  background-position-x: -337px;
+  background-position-y: 38px;
+}
+
+.darkHeader {
+  background-color: rgba(51, 51, 51, 0.90);
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
