@@ -14,9 +14,11 @@ body {
 }
 
 .darkHeader {
-  background-color: rgba(51, 51, 51, 0.90);
+  background-color: rgba(51, 51, 51, 0.9);
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
+
+/*# sourceMappingURL=styles.css.map */
