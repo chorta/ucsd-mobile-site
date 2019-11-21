@@ -1,5 +1,6 @@
 $primary-blue: #44526f;
 $yellow: #fedb65;
+$white-overlay: #e9ecef63;
 
 /* Show it is fixed to the top */
 body {
@@ -10,6 +11,10 @@ body {
 
 h1, h2, h3, h4 {
   color: #000;
+}
+
+a.nav-link {
+    margin-left: 40px;
 }
 
 .intro-jt {
@@ -60,6 +65,10 @@ h1, h2, h3, h4 {
       }
   &.half-solid-yellow{
         background: linear-gradient($yellow 50%, #FFF 50%);
+      }
+  &.half-solid-white{
+        background: linear-gradient($white-overlay 50%, #FFF 50%), url('https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png');
+        background-size: cover;
       }
 }
 

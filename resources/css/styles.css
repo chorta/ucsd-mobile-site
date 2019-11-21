@@ -8,6 +8,10 @@ h1, h2, h3, h4 {
   color: #000;
 }
 
+a.nav-link {
+  margin-left: 40px;
+}
+
 .intro-jt {
   background: linear-gradient(#263a63d4 50%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta-inset/crowd-cheering.png") !important;
   background-size: cover !important;
@@ -53,6 +57,10 @@ h1, h2, h3, h4 {
 }
 .jumbotron.half-solid-yellow {
   background: linear-gradient(#fedb65 50%, #FFF 50%);
+}
+.jumbotron.half-solid-white {
+  background: linear-gradient(#e9ecef63 50%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png");
+  background-size: cover;
 }
 
 .mobile-app-preview {
