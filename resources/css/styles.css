@@ -8,6 +8,11 @@ h1, h2, h3, h4 {
   color: #000;
 }
 
+.intro-jt {
+  background: linear-gradient(#44526fb8 50%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta-inset/crowd-cheering.png") !important;
+  background-size: cover !important;
+}
+
 .strong-heading {
   text-transform: uppercase;
   font-weight: bold;
