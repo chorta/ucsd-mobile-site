@@ -12,6 +12,9 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   font-weight: bold;
 }
+.strong-heading.intro-heading {
+  margin-top: 158px;
+}
 
 .white-heading {
   color: #fff;
