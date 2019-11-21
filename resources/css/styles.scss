@@ -1,3 +1,6 @@
+$primary-blue: #44526f;
+$yellow: #fedb65;
+
 /* Show it is fixed to the top */
 body {
   min-height: 75rem;
@@ -40,6 +43,12 @@ h1, h2, h3, h4 {
 
 .jumbotron{
   margin-bottom: 0;
+  &.half-solid-blue{
+        background: linear-gradient($primary-blue 50%, #FFF 50%);
+      }
+  &.half-solid-yellow{
+        background: linear-gradient($yellow 50%, #FFF 50%);
+      }
 }
 
 .mobile-app-preview {

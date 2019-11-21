@@ -40,6 +40,12 @@ h1, h2, h3, h4 {
 .jumbotron {
   margin-bottom: 0;
 }
+.jumbotron.half-solid-blue {
+  background: linear-gradient(#44526f 50%, #FFF 50%);
+}
+.jumbotron.half-solid-yellow {
+  background: linear-gradient(#fedb65 50%, #FFF 50%);
+}
 
 .mobile-app-preview {
   margin-top: 150px;
