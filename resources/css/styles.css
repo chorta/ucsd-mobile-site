@@ -4,6 +4,22 @@ body {
   /*padding-top: 4.5rem;*/
 }
 
+h1, h2, h3, h4 {
+  color: #000;
+}
+
+.strong-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-heading {
+  color: #fff;
+  text-transform: none;
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
 .ucsd-logo {
   background-image: url(../images/sprite_base2x.png);
   background-size: 500px 120px;
@@ -13,12 +29,24 @@ body {
   background-position-y: 38px;
 }
 
-.darkHeader {
+.dark-header {
   background-color: rgba(51, 51, 51, 0.9);
   -webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.mobile-app-preview {
+  margin-top: 150px;
+}
+
+.apple-badge {
+  margin-left: -22px;
 }
 
 /*# sourceMappingURL=styles.css.map */

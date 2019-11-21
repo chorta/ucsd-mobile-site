@@ -4,9 +4,9 @@ $(function() {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 500) {
-            header.removeClass('bg-transparent').addClass("darkHeader");
+            header.removeClass('bg-transparent').addClass("dark-header");
         } else {
-            header.removeClass("darkHeader").addClass('bg-transparent');
+            header.removeClass("dark-header").addClass('bg-transparent');
         }
     });
 });
