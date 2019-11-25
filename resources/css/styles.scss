@@ -67,7 +67,7 @@ a.nav-link {
         background: linear-gradient($yellow 50%, #FFF 50%);
       }
   &.half-solid-white{
-        background: linear-gradient($white-overlay 50%, #FFF 50%), url('https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png');
+        background: linear-gradient($white-overlay 60%, #FFF 50%), url('https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png');
         background-size: cover;
       }
 }
@@ -78,4 +78,12 @@ a.nav-link {
 
 .apple-badge {
   margin-left: -22px;
+}
+
+.jumbotron-tall {
+
+   .row:first-child {
+    margin-top: 315px;
+  }
+
 }

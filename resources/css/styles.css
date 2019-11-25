@@ -59,7 +59,7 @@ a.nav-link {
   background: linear-gradient(#fedb65 50%, #FFF 50%);
 }
 .jumbotron.half-solid-white {
-  background: linear-gradient(#e9ecef63 50%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png");
+  background: linear-gradient(#e9ecef63 60%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta/scientist-with-beaker.png");
   background-size: cover;
 }
 
@@ -69,6 +69,10 @@ a.nav-link {
 
 .apple-badge {
   margin-left: -22px;
+}
+
+.jumbotron-tall .row:first-child {
+  margin-top: 315px;
 }
 
 /*# sourceMappingURL=styles.css.map */
