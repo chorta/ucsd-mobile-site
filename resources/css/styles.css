@@ -13,7 +13,7 @@ a.nav-link {
 }
 
 .intro-jt {
-  background: linear-gradient(#263a63d4 50%, #FFF 50%), url("https://department.ucsd.edu/_images/image-library/cta-inset/crowd-cheering.png") !important;
+  background: linear-gradient(#263a63d4 45%, #FFF 45%), url("https://department.ucsd.edu/_images/image-library/cta-inset/crowd-cheering.png") !important;
   background-size: cover !important;
 }
 
@@ -22,7 +22,7 @@ a.nav-link {
   font-weight: bold;
 }
 .strong-heading.intro-heading {
-  margin-top: 158px;
+  margin-top: 235px;
 }
 
 .white-heading {
@@ -64,7 +64,11 @@ a.nav-link {
 }
 
 .mobile-app-preview {
-  margin-top: 150px;
+  margin-top: 0;
+}
+
+.badge-container {
+  margin: 60px 0 100px 0;
 }
 
 .apple-badge {
