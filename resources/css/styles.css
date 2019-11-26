@@ -83,7 +83,10 @@ a.nav-link {
   height: 750px;
   position: absolute;
   right: 0;
-  top: 0;
+}
+
+.device {
+  width: 240px;
 }
 
 /*# sourceMappingURL=styles.css.map */

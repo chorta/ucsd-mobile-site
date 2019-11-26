@@ -96,5 +96,15 @@ a.nav-link {
   height: 750px;
   position: absolute;
   right: 0;
-  top: 0;
+}
+
+.device {
+  width: 240px;
+}
+
+@media only screen and (min-width: 767px) {
+
+  .intro-heading {
+
+  }
 }
