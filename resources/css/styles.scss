@@ -91,10 +91,21 @@ a.nav-link {
   transition: background-color 0.2s ease-out;
 }
 
+.white-heading-small {
+  font-size: 46px;
+  font-weight: 400;
+  max-width: 684px;
+  margin: 0 auto;
+  color: #fff;
+  padding-bottom: 46px;
+}
+
 .jumbotron{
   margin-bottom: 0;
   &.half-solid-blue{
         background: linear-gradient($primary-blue 50%, #FFF 50%);
+        padding-top: 103px;
+        padding-bottom: 109px;
       }
   &.half-solid-yellow{
         background: linear-gradient($yellow 50%, #FFF 50%);
