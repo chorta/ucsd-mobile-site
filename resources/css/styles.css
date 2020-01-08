@@ -88,6 +88,17 @@ a.nav-link {
   margin: 0 auto;
   color: #fff;
   padding-bottom: 46px;
+  line-height: 1;
+}
+
+.white-heading-xl {
+  font-size: 86px;
+  font-weight: bold;
+  max-width: 684px;
+  margin: 0 auto;
+  color: #fff;
+  padding-bottom: 46px;
+  text-transform: uppercase;
 }
 
 .jumbotron {
