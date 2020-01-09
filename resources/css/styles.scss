@@ -84,11 +84,18 @@ a.nav-link {
 }
 
 .dark-header {
-  background-color: rgba(51, 51, 51, 0.90);
-  -webkit-transition: background-color 0.2s ease-out;
-  -moz-transition: background-color 0.2s ease-out;
-  -o-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
+  background-color: rgba(49, 65, 88, 0.90);
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  &.navbar-expand-md .ucsd-logo {
+    margin-top: 0;
+  }
+
+  &.navbar-expand-md .navbar-nav {
+    margin-top: 0;
+  }
 }
 
 .white-heading-small {
@@ -127,15 +134,15 @@ a.nav-link {
       }
   &.feature-1{
         background: linear-gradient($white-overlay 808px, #FFF 50%), url('../images/feature-1.jpg');
-        background-size: cover;
+        background-size: 100%, 100%;
       }
   &.feature-2{
         background: linear-gradient($white-overlay 808px, #FFF 50%), url('../images/feature-2.jpg');
-        background-size: cover;
+        background-size: 100%, 100%;
   }
   &.feature-3{
         background: linear-gradient($white-overlay 808px, #FFF 50%), url('../images/feature-3.jpg');
-        background-size: cover;
+        background-size: 100%, 100%;
   }
 
 }
@@ -166,13 +173,29 @@ a.nav-link {
 
 .jumbotron-tall {
 
+  padding-bottom: 109px;
+  font-size: 1.2rem;
+
     h1 {
-      font-weight: bold;
-      font-size: 60px;
+      color: #152035;
+      font-weight: 900;
+      font-size: 4.5rem;
+      word-spacing: 5px;
+      margin-bottom: 83px
+    }
+
+    h2 {
+
+      font-weight: 500;
+      font-size: 42px;
     }
 
    .row:first-child {
-    margin-top: 315px;
+    margin-top: 588px;
+  }
+
+  .trident-yellow {
+    margin-top: 450px;
   }
 
 }
@@ -184,7 +207,9 @@ a.nav-link {
 }
 
 .device {
-  width: 240px;
+  width: 283px;
+  height: 580px;
+  margin-top: 22px;
 }
 
 .no-gutters {
