@@ -1,3 +1,5 @@
+// navbar transition
+
 $(function() {
     var header = $(".navbar");
     $(window).scroll(function() {
@@ -10,3 +12,25 @@ $(function() {
         }
     });
 });
+
+// smooth scrolling
+
+$(document).ready(function() {
+    $(".nav-link").click(function() {
+        var t = $(this).attr("href");
+        $('.active').removeClass('active');
+        $("html, body").animate({
+            scrollTop: $(t).offset().top - 59
+        }, {
+            duration: 1e3,
+        });
+
+        $('body').scrollspy({ target: '#main-nav',offset: $(t).offset().top });
+        $(this).parent().addClass('active');
+
+        return false;
+    });
+});
+
+
+$('body').scrollspy({ target: '#main-nav',offset: 0 });
