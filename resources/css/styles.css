@@ -197,6 +197,26 @@ a.nav-link {
 
 .device-container {
   margin-top: -150px;
+  z-index: 2;
+}
+
+.feature {
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.feature-trident {
+  position: absolute;
+  bottom: 150px;
+  z-index: 1;
+  width: 800px;
+  height: auto;
+}
+.feature-trident.left {
+  left: 0px;
+}
+.feature-trident.right {
+  right: 0px;
 }
 
 .feature-title-container {
