@@ -16,7 +16,7 @@ $(function() {
 // smooth scrolling
 
 $(document).ready(function() {
-    $(".nav-link").click(function() {
+    $(".nav-link,.ucsd-logo").click(function() {
         var t = $(this).attr("href");
         $('.active').removeClass('active');
         $("html, body").animate({
