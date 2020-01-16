@@ -259,6 +259,10 @@ a.nav-link {
 
 }
 
+.feature-list-container {
+  z-index: 2;
+}
+
 .feature-list {
   padding-top: 40px;
 }
@@ -272,6 +276,10 @@ a.nav-link {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.tech-support {
+  margin: 20px auto 40px auto;
 }
 
 @media only screen and (min-width: 767px) {
