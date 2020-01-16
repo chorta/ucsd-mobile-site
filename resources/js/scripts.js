@@ -2,13 +2,19 @@
 
 $(function() {
     var header = $(".navbar");
+
+    if(window.scrollY !=0){
+     header.addClass("dark-header").removeClass("bg-transparent");
+    }
+
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 500) {
+        if (scroll >= 300) {
+            console.log(scroll)
             header.removeClass('bg-transparent').addClass("dark-header");
         } else {
-            header.removeClass("dark-header").addClass('bg-transparent');
+          header.removeClass("dark-header").addClass('bg-transparent');
         }
     });
 });
