@@ -22,9 +22,8 @@ h1, h2, h3, h4 {
 a.nav-link {
     margin-left: 72px;
     color: #FFF !important;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: lighter;
-    letter-spacing: 1px;
 }
 
 .intro-jt {
@@ -109,13 +108,27 @@ a.nav-link {
 }
 
 .white-heading-xl {
-  font-size: 86px;
+  font-size: 107px;
   font-weight: bold;
-  max-width: 684px;
+  max-width: 687px;
   margin: 0 auto;
   color: #fff;
   padding-bottom: 46px;
   text-transform: uppercase;
+}
+
+.black-heading-md {
+  font-size: 53px;
+  font-weight: 400;
+  max-width: 790px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.black-context {
+  max-width: 810px;
+  margin: 0 auto;
+  font-size: 23px;
 }
 
 .jumbotron{
@@ -180,13 +193,13 @@ a.nav-link {
     h1 {
       color: #152035;
       font-weight: 900;
-      font-size: 4.5rem;
+      font-size: 95px;
       word-spacing: 5px;
       margin-bottom: 53px;
       position: absolute;
       padding-left: 15px;
       bottom: 0;
-      max-width: 800px;
+      max-width: 830px;
 
       &.right {
           right: 0;
@@ -254,7 +267,7 @@ a.nav-link {
   h2 {
 
     font-weight: 500;
-    font-size: 42px;
+    font-size: 53px;
   }
 
 }

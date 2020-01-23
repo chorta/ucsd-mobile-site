@@ -11,10 +11,9 @@ $(function() {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 300) {
-            console.log(scroll)
             header.removeClass('bg-transparent').addClass("dark-header");
         } else {
-          header.removeClass("dark-header").addClass('bg-transparent');
+            header.removeClass("dark-header").addClass('bg-transparent');
         }
     });
 });
@@ -26,7 +25,7 @@ $(document).ready(function() {
         var t = $(this).attr("href");
         $('.active').removeClass('active');
         $("html, body").animate({
-            scrollTop: $(t).offset().top - 59
+            scrollTop: $(t).offset().top - 71
         }, {
             duration: 1e3,
         });
