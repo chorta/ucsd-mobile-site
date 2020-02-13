@@ -2,8 +2,7 @@
 body {
   min-height: 75rem;
   /*padding-top: 4.5rem;*/
-  font-family: Brix Sans;
-  src: url(../fonts/BrixSansRegular.otf);
+  font-family: "BrixSansRegular";
 }
 
 h1, h2, h3, h4 {
@@ -265,6 +264,15 @@ a.nav-link {
 
 .tech-support {
   margin: 20px auto 40px auto;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "BrixSansRegular";
+  src: url("./fonts/BrixSansRegular.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/BrixSansRegular.eot?#iefix") format("embedded-opentype"), url("./fonts/BrixSansRegular.otf") format("opentype"), url("./fonts/BrixSansRegular.svg") format("svg"), url("./fonts/BrixSansRegular.ttf") format("truetype"), url("./fonts/BrixSansRegular.woff") format("woff"), url("./fonts/BrixSansRegular.woff2") format("woff2");
+  /* Modern Browsers */
 }
 
 /*# sourceMappingURL=styles.css.map */
