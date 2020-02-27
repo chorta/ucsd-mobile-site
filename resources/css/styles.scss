@@ -14,6 +14,7 @@ h1, h2, h3, h4 {
   color: #000;
 }
 
+
 .navbar-nav {
     margin-top: 25px;
 }
@@ -150,11 +151,11 @@ a.nav-link {
       }
   &.feature-2{
         background: linear-gradient($white-overlay 808px, #FFF 50%), url('../images/feature-2.jpg');
-        background-size: 100%, 100%;
+        background-size: cover;
   }
   &.feature-3{
         background: url('../images/feature-3.jpg');
-        background-size: 100%, 100%;
+        background-size: cover;
   }
 
 }
@@ -199,6 +200,7 @@ a.nav-link {
       padding-left: 15px;
       bottom: 0;
       max-width: 830px;
+      z-index: 2;
 
       &.right {
           right: 0;
@@ -225,7 +227,7 @@ a.nav-link {
 
 .device {
   width: 283px;
-  height: 580px;
+  height: auto;
   margin-top: 22px;
 }
 
@@ -294,21 +296,136 @@ a.nav-link {
   margin: 20px auto 40px auto;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1199px) {
 
-  .intro-heading {
-
+  .white-heading {
+    font-size: 3.5rem;
   }
+
+  .strong-heading.intro-heading {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+
+
+  .trident-yellow {
+    height: 685px;
+    position: absolute;
+    right: 0;
+  }
+
+  .intro-jt {
+        background: linear-gradient(transparent 49%, #FFF 49%), url(../images/header-image.jpg) !important;
+        background-repeat: no-repeat !important;
+  }
+
+  a.nav-link {
+    margin-left: 34px;
+    font-size: 20px;
+  }
+
+  .mobile-app-preview {
+    max-width: 225px;
+  }
+
+  .white-heading {
+    font-size: 2.65rem;
+  }
+
+  .blurb-container .blurb-heading {
+    font-size: 1.71rem;
+  }
+
+  .blurb-container p {
+    font-size: 1.1rem;
+  }
+
+  .strong-heading.intro-heading {
+    font-size: 2.65rem;
+  }
+
+  .badge-app:first-child {
+    margin: 0;
+  }
+
+  .white-heading-small {
+    font-size: 36px;
+    max-width: 536px;
+  }
+
+  .jumbotron-tall {
+    height: 400px;
+  }
+
+  .jumbotron-tall h1 {
+    font-size: 57px;
+    margin-bottom: 33px;
+  }
+
+  .feature-container h2 {
+    font-size: 35px;
+  }
+
+  .device-container {
+    margin-top: -110px;
+  }
+
+  .feature {
+    padding-bottom: 0;
+  }
+
+  .feature-list {
+    padding-top: 20px;
+  }
+
+  .feature-trident {
+    bottom: 65px;
+    max-width: 560px;
+
+      &.left {
+        bottom: 36px;
+        max-width: 390px;
+      }
+
+    }
+
+  .feature-title-container {
+    height: 336px;
+  }
+
+  .white-heading-xl {
+    font-size: 70px;
+  }
+
+  .black-heading-md {
+    font-size: 35px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .badge-app {
+    max-width: 231px;
+    margin: 0 auto !important;
+  }
+
 }
 
 /* font converted using font-converter.net. thank you! */
 @font-face {
   font-family: "BrixSansRegular";
-  src: url("./fonts/BrixSansRegular.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/BrixSansRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/BrixSansRegular.otf") format("opentype"), /* Open Type Font */
-    url("./fonts/BrixSansRegular.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/BrixSansRegular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/BrixSansRegular.woff") format("woff"), /* Modern Browsers */
-    url("./fonts/BrixSansRegular.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/BrixSansRegular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/BrixSansRegular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/BrixSansRegular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/BrixSansRegular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/BrixSansRegular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/BrixSansRegular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/BrixSansRegular.woff2") format("woff2"); /* Modern Browsers */
 }
