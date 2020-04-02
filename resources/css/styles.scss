@@ -174,6 +174,10 @@ a.nav-link {
   margin: 75px 0 100px 0;
 }
 
+.badge-container-mobile {
+  display: none;
+}
+
 .apple-badge {
 }
 
@@ -306,6 +310,10 @@ a.nav-link {
     font-size: 3.5rem;
   }
 
+  .jumbotron-tall h1 {
+    font-size: 75px;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -416,7 +424,109 @@ a.nav-link {
     margin: 0 auto !important;
   }
 
+  .strong-heading.intro-heading {
+    margin: 50px 0 1px 0;
+  }
+
+  .intro-jt {
+        background: linear-gradient(transparent 23%, #FFF 23%), url(../images/header-image.jpg) !important;
+        background-repeat: no-repeat !important;
+  }
+
+  .mobile-app-preview {
+    margin-top: 0;
+    max-width: 100%;
+    padding: 0 15px;
+
+    img {
+      max-width: 225px;
+      float: left;
+    }
+
+  }
+
+  .badge-container {
+    display: none !important;
+  }
+
+  .badge-container-mobile {
+    display: block;
+    vertical-align: middle !important;
+    max-width: 280px;
+    float: left;
+  }
+
+  .badge-app {
+    margin: 0 auto;
+    padding: 0;
+      &:first-child {
+      margin: 120px auto 50px auto !important;
+      }
+  }
+
+  /** Features Styles */
+
+  .device-container {
+    margin-top: 0;
+  }
+
+  .jumbotron-tall {
+    height: 280px;
+      h1 {
+      text-align: left !important;
+      position: relative;
+      bottom: unset;
+      }
+  }
+
+  .feature-title-container {
+    height: auto;
+  }
+
 }
+
+@media only screen and (max-width: 575px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 535px) {
+
+  .badge-container-mobile{
+    max-width: 53%
+  }
+
+    .badge-app {
+
+      img {
+        max-width: 100%;
+      }
+
+    }
+
+    .feature-trident {
+        &.left {
+          max-width: 100%;
+        }
+
+      }
+}
+
+@media only screen and (max-width: 508px) {
+
+  #first-img-preview {
+    width: 50%;
+    padding: 0 15px 0 0;
+  }
+
+  .badge-container-mobile{
+    width: 50%;
+    padding: 0 15px;
+  }
+}
+
 
 /* font converted using font-converter.net. thank you! */
 @font-face {
