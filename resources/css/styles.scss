@@ -138,6 +138,11 @@ a.nav-link {
         padding-top: 103px;
         padding-bottom: 109px;
       }
+  &.half-solid-blue-img{
+        background: linear-gradient($primary-blue 50%, #FFF 50%);
+        padding-top: 103px;
+        padding-bottom: 109px;
+      }
   &.half-solid-yellow{
         background: linear-gradient($yellow 50%, #FFF 50%);
       }
@@ -514,6 +519,12 @@ a.nav-link {
     max-height: 350px;
   }
 
+  .jumbotron {
+    &.half-solid-blue-img {
+      background: linear-gradient(#44526f 38%, #FFF 38%);
+    }
+  }
+
 }
 
 
@@ -541,6 +552,10 @@ a.nav-link {
         }
 
       }
+
+    .white-heading-xl {
+      font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 508px) {
@@ -556,7 +571,7 @@ a.nav-link {
   }
 
   .jumbotron-tall h1 {
-    font-size: 45px;
+    font-size: 42px;
   }
 
 }
