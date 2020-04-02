@@ -425,7 +425,7 @@ a.nav-link {
   }
 
   .strong-heading.intro-heading {
-    margin: 50px 0 1px 0;
+    margin: 55px 0 10px 0;
   }
 
   .intro-jt {
@@ -433,8 +433,20 @@ a.nav-link {
         background-repeat: no-repeat !important;
   }
 
+  .strong-heading.intro-heading, .white-heading {
+    font-size: 2.95rem;
+  }
+
+  .blurb-container p {
+    font-size: 1.2rem;
+      &:nth-child(2) {
+        max-width: 445px;
+        word-spacing: 1px;
+      }
+  }
+
   .mobile-app-preview {
-    margin-top: 0;
+    margin-top: 30px;
     max-width: 100%;
     padding: 0 15px;
 
@@ -471,11 +483,13 @@ a.nav-link {
   }
 
   .jumbotron-tall {
-    height: 280px;
+    height: auto;
+    padding: 6rem 2rem;
       h1 {
       text-align: left !important;
       position: relative;
       bottom: unset;
+      margin-bottom: 0;
       }
   }
 
@@ -487,12 +501,27 @@ a.nav-link {
 
 @media only screen and (max-width: 575px) {
 
+  .jumbotron-tall h1 {
+    padding: 0
+  }
 
+  .device-container {
+    text-align: center !important;
+  }
+
+  .device {
+    width: auto;
+    max-height: 350px;
+  }
 
 }
 
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 536px) {
+
+  .intro-jt {
+    background: linear-gradient(transparent 27%, #FFF 27%), url(../images/header-image.jpg) !important;
+  }
 
   .badge-container-mobile{
     max-width: 53%
@@ -525,6 +554,11 @@ a.nav-link {
     width: 50%;
     padding: 0 15px;
   }
+
+  .jumbotron-tall h1 {
+    font-size: 45px;
+  }
+
 }
 
 
