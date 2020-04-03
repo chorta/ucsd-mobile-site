@@ -489,9 +489,11 @@ a.nav-link {
 
   .jumbotron-tall {
     height: auto;
-    padding: 6rem 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
       h1 {
       text-align: left !important;
+      padding-left: 15px;
       position: relative;
       bottom: unset;
       margin-bottom: 0;
@@ -506,9 +508,6 @@ a.nav-link {
 
 @media only screen and (max-width: 575px) {
 
-  .jumbotron-tall h1 {
-    padding: 0
-  }
 
   .device-container {
     text-align: center !important;
@@ -572,6 +571,51 @@ a.nav-link {
 
   .jumbotron-tall h1 {
     font-size: 42px;
+  }
+
+  .jumbotron.half-solid-blue {
+    padding-top: 80px;
+  }
+
+  .white-heading-small {
+    font-size: 25px;
+  }
+
+  .black-heading-md {
+    font-size: 29px;
+  }
+
+  .black-context {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 399px) {
+  .mobile-app-preview {
+    margin: 0;
+  }
+
+  .badge-container-mobile {
+    max-width: 100%;
+    width: 100%;
+    clear: both;
+  }
+
+  #first-img-preview {
+    margin: 30px 0;
+    float: none;
+    padding: 0;
+  }
+
+  .badge-app {
+    max-width: 50%;
+    width: 45%;
+    float: left;
+    margin: 10px auto !important;
+    &:first-child {
+      margin: 10px auto !important;
+    }
   }
 
 }
