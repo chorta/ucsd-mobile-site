@@ -7,13 +7,22 @@ $(function() {
      header.addClass("dark-header").removeClass("bg-transparent");
     }
 
+    var intFrameWidth = window.innerWidth;
+
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-
-        if (scroll >= 300) {
-            header.removeClass('bg-transparent').addClass("dark-header");
+        if (intFrameWidth <= 767) {
+          if (scroll >= 11) {
+              header.removeClass('bg-transparent').addClass("dark-header");
+          } else {
+              header.removeClass("dark-header").addClass('bg-transparent');
+          }
         } else {
-            header.removeClass("dark-header").addClass('bg-transparent');
+          if (scroll >= 300) {
+              header.removeClass('bg-transparent').addClass("dark-header");
+          } else {
+              header.removeClass("dark-header").addClass('bg-transparent');
+          }
         }
     });
 });
