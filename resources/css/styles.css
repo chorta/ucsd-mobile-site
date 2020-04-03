@@ -475,7 +475,20 @@ a.nav-link {
 }
 @media only screen and (max-width: 536px) {
   .intro-jt {
-    background: linear-gradient(transparent 27%, #FFF 27%), url(../images/header-image.jpg) !important;
+    background: linear-gradient(transparent 21%, #FFF 21%), url(../images/header-image.jpg) !important;
+  }
+
+  .strong-heading.intro-heading, .white-heading {
+    font-size: 2.5rem;
+  }
+
+  .blurb-container {
+    max-width: 405px;
+    line-height: unset;
+  }
+
+  .blurb-container .blurb-heading {
+    font-size: 1.5rem;
   }
 
   .badge-container-mobile {
@@ -511,6 +524,7 @@ a.nav-link {
 
   .jumbotron.half-solid-blue {
     padding-top: 80px;
+    background: linear-gradient(#44526f 60%, #FFF 60%);
   }
 
   .white-heading-small {
@@ -525,31 +539,23 @@ a.nav-link {
     font-size: 20px;
   }
 }
+@media only screen and (max-width: 459px) {
+  .jumbotron.half-solid-blue {
+    background: linear-gradient(#44526f 23%, #FFF 23%) !important;
+  }
+
+  .strong-heading.intro-heading, .white-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .blurb-container .blurb-heading {
+    font-size: 1.2rem;
+  }
+}
 @media only screen and (max-width: 399px) {
-  .mobile-app-preview {
-    margin: 0;
-  }
-
-  .badge-container-mobile {
-    max-width: 100%;
-    width: 100%;
-    clear: both;
-  }
-
-  #first-img-preview {
-    margin: 30px 0;
-    float: none;
-    padding: 0;
-  }
-
-  .badge-app {
-    max-width: 50%;
-    width: 45%;
-    float: left;
-    margin: 10px auto !important;
-  }
   .badge-app:first-child {
-    margin: 10px auto !important;
+    margin-top: 75px !important;
   }
 }
 /* font converted using font-converter.net. thank you! */
