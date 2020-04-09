@@ -13,9 +13,9 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (intFrameWidth <= 767) {
           if (scroll >= 11) {
-              header.removeClass('bg-transparent').addClass("dark-header");
+              header.removeClass('bg-transparent').addClass("mobile-dark-nav");
           } else {
-              header.removeClass("dark-header").addClass('bg-transparent');
+              header.removeClass("mobile-dark-nav").addClass('bg-transparent');
           }
         } else {
           if (scroll >= 300) {
