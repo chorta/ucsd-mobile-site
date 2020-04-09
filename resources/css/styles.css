@@ -15,9 +15,9 @@ h1, h2, h3, h4 {
 
 a.nav-link {
   margin-left: 72px;
+  color: #FFF !important;
   font-size: 26px;
   font-weight: lighter;
-
 }
 
 .intro-jt {
