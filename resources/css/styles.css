@@ -382,6 +382,14 @@ a.nav-link {
   }
 }
 @media only screen and (max-width: 767px) {
+  .mobile-dark-nav {
+    background-color: #152035 !important;
+  }
+
+  .navbar-collapse.show {
+    background: #152035;
+  }
+
   .badge-app {
     max-width: 231px;
     margin: 0 auto !important;
