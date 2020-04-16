@@ -12,7 +12,6 @@ $(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (intFrameWidth < 767) {
-          alert(intFrameWidth)
           if (scroll >= 11) {
               header.removeClass('bg-transparent').addClass("mobile-dark-nav");
           } else {
