@@ -11,14 +11,15 @@ $(function() {
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (intFrameWidth <= 767) {
+        if (intFrameWidth < 767) {
+          alert(intFrameWidth)
           if (scroll >= 11) {
               header.removeClass('bg-transparent').addClass("mobile-dark-nav");
           } else {
               header.removeClass("mobile-dark-nav").addClass('bg-transparent');
           }
         } else {
-          if (scroll >= 450) {
+          if (scroll >= 300) {
               header.removeClass('bg-transparent').addClass("dark-header");
           } else {
               header.removeClass("dark-header").addClass('bg-transparent');
