@@ -18,7 +18,7 @@ $(function() {
               header.removeClass("mobile-dark-nav").addClass('bg-transparent');
           }
         } else {
-          if (scroll >= 300) {
+          if (scroll >= 450) {
               header.removeClass('bg-transparent').addClass("dark-header");
           } else {
               header.removeClass("dark-header").addClass('bg-transparent');
