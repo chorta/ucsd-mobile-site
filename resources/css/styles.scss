@@ -529,6 +529,17 @@ a.nav-link {
     }
   }
 
+  .feature-trident {
+    bottom: 200px;
+    max-width: 568px;
+
+      &.left {
+        bottom: 170px;
+        max-width: 458px;
+      }
+
+  }
+
 }
 
 

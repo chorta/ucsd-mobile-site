@@ -475,6 +475,15 @@ a.nav-link {
   .jumbotron.half-solid-blue-img {
     background: linear-gradient(#44526f 38%, #FFF 38%);
   }
+
+  .feature-trident {
+    bottom: 200px;
+    max-width: 568px;
+  }
+  .feature-trident.left {
+    bottom: 170px;
+    max-width: 458px;
+  }
 }
 @media only screen and (max-width: 536px) {
   .intro-jt {
