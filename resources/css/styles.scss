@@ -433,13 +433,17 @@ a.nav-link {
     margin: 55px 0 10px 0;
   }
 
+
+
   .intro-jt {
-        background: linear-gradient(transparent 23%, #FFF 23%), url(../images/header-image.jpg) !important;
+        background: linear-gradient(transparent 50%, #FFF 50%), url(../images/header-image.jpg) !important;
         background-repeat: no-repeat !important;
   }
 
   .strong-heading.intro-heading, .white-heading {
     font-size: 2.95rem;
+    color: #fff;
+    margin-bottom: 40px;
   }
 
   .blurb-container p {
@@ -448,6 +452,7 @@ a.nav-link {
         max-width: 445px;
         word-spacing: 1px;
       }
+      color: #FFF;
   }
 
   .mobile-app-preview {
@@ -530,7 +535,7 @@ a.nav-link {
 @media only screen and (max-width: 536px) {
 
   .intro-jt {
-    background: linear-gradient(transparent 21%, #FFF 21%), url(../images/header-image.jpg) !important;
+    background: linear-gradient(transparent 40%, #FFF 40%), url(../images/header-image.jpg) !important;
   }
 
   .strong-heading.intro-heading, .white-heading {
@@ -608,9 +613,6 @@ a.nav-link {
 @media only screen and (max-width: 459px) {
 
 
-    .jumbotron.half-solid-blue {
-      background: linear-gradient(#44526f 23%, #FFF 23%) !important;
-    }
 
     .strong-heading.intro-heading, .white-heading {
       font-size: 2rem;
