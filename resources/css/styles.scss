@@ -14,6 +14,11 @@ h1, h2, h3, h4 {
   color: #000;
 }
 
+.navbar-toggler {
+    border-color: rgba(255, 255,255, 0.8) !important;
+    background-color: #152035;
+    opacity: .8;
+}
 
 .navbar-nav {
     margin-top: 25px;
@@ -423,6 +428,23 @@ a.nav-link {
 }
 
 @media only screen and (max-width: 767px) {
+    .mobile-dark-nav {
+      background-color: #152035 !important;
+    }
+
+    .navbar-nav {
+      margin: 0;
+      text-align: right;
+    }
+
+    #jumbo-title {
+      margin-top: 2.5rem;
+    }
+
+      /* 50% width
+      .navbar-expand-md {
+          background: linear-gradient(to right, transparent 50%, #152035 50%) !important;
+      } *
 
   .badge-app {
     max-width: 231px;
@@ -432,8 +454,6 @@ a.nav-link {
   .strong-heading.intro-heading {
     margin: 55px 0 10px 0;
   }
-
-
 
   .intro-jt {
         background: linear-gradient(transparent 50%, #FFF 50%), url(../images/header-image.jpg) !important;
