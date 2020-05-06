@@ -9,14 +9,14 @@ h1, h2, h3, h4 {
   color: #000;
 }
 
-.navbar-nav {
-  margin-top: 25px;
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: #152035;
+  opacity: 0.8;
 }
 
-.navbar-toggler {
-    border-color: rgba(255, 255,255, 0.8) !important;
-    background-color: #152035;
-    opacity: .8;
+.navbar-nav {
+  margin-top: 25px;
 }
 
 a.nav-link {
@@ -388,11 +388,6 @@ a.nav-link {
   }
 }
 @media only screen and (max-width: 767px) {
-  .badge-app {
-    max-width: 231px;
-    margin: 0 auto !important;
-  }
-
   .mobile-dark-nav {
     background-color: #152035 !important;
   }
@@ -410,6 +405,10 @@ a.nav-link {
   .navbar-expand-md {
       background: linear-gradient(to right, transparent 50%, #152035 50%) !important;
   } */
+  .badge-app {
+    max-width: 231px;
+    margin: 0 auto !important;
+  }
 
   .strong-heading.intro-heading {
     margin: 55px 0 10px 0;
